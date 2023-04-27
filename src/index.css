@@ -1,0 +1,60 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.square{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: none;
+  transition: all 1s;
+
+   display: flex;
+}
+
+.square:nth-child(1){
+  margin-right: -100px;
+}
+
+.square:nth-child(2){
+  margin-right: -100px;
+}
+
+.squareRotate{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: none;
+  transition: all 1s;
+  transform: rotate(180deg);
+  display: flex;
+}
+
+.squareRotate:nth-child(1){
+  margin-right: -100px;
+}
+
+.squareRotate:nth-child(2){
+  margin-right: -100px;
+}
+
+.noOpacity{
+  opacity: 0;
+  transition: all 1s;
+}
+
+.showOpacity{
+  opacity: 1;
+  transition: all 2s;
+}
